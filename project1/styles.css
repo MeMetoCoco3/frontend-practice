@@ -1,0 +1,71 @@
+/*General Styles*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "URW Bookman", serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url("bg1.jpg") no-repeat center center/ cover;
+}
+
+.container{
+    width: 550px;
+    height: 500px;
+
+}
+.header{
+    border: solid 2px slategray;
+    color: floralwhite;
+    background-color: #262626;
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.main-content{
+    font-size: 1.8rem;
+    border: solid 1px darkred;
+    color: azure;
+    background-color: rgba(26,26,26,.8);
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px darkred;
+}
+
+.main-content .text-area{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.main-content .person{
+    font-family: "URW Bookman", serif;
+    font-style: italic;
+    color: lavenderblush;
+    text-transform: capitalize;
+    text-shadow: darkred 2px 2px;
+    margin-top: 10px;
+}
+
+.button-area button{
+    margin-top: 20px;
+    border-color: darkred;
+    background: #262626;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 3px;
+}
+.button-area button:hover{
+    background: darkred;
+
+
+}
